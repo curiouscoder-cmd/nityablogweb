@@ -56,6 +56,17 @@ export const mockBlogs = [
   },
   {
     id: 6,
+    title: "Breaking Into Tech: A Beginner's Guide",
+    excerpt: "Starting a career in tech? Here’s a roadmap to help you navigate your journey.",
+    content: "The tech industry offers endless opportunities, but breaking in can be overwhelming. This guide covers essential skills, recommended resources, and tips to land your first tech job.",
+    author: "Daniel Johnson",
+    authorAvatar: "https://i.pravatar.cc/150?img=2",
+    date: "March 25, 2024",
+    category: "Career",
+    image: "https://images.unsplash.com/photo-1516259762381-22954d7d3ad2"
+  },
+  {
+    id: 7,
     title: "The Science of Sleep",
     excerpt: "Understanding the importance of sleep and how to improve your sleep quality for better health.",
     content: "Sleep is essential for our health and well-being. This article delves into the science of sleep and provides practical tips for better sleep hygiene.",
@@ -64,5 +75,38 @@ export const mockBlogs = [
     date: "March 16, 2024",
     category: "Health",
     image: "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/Y7TEMR7LQDB54GKUXP3G3YMSTU.jpg"
+  },
+  {
+    id: 8,
+    title: "Mastering the Art of Productivity",
+    excerpt: "Discover proven techniques to boost your productivity and get more done in less time.",
+    content: "Productivity isn't about working harder but working smarter. This article explores strategies like time-blocking, the Pomodoro technique, and deep work to help you maximize efficiency.",
+    author: "Sophia Carter",
+    authorAvatar: "https://i.pravatar.cc/150?img=1",
+    date: "March 29, 2024",
+    category: "Productivity",
+    image: "https://images.unsplash.com/photo-1506784983877-45594efa4cbe"
+  },
+  {
+    id: 9,
+    title: "The Future of AI on jobs",
+    excerpt: "How AI is shaping the world and what we can expect in the coming years.",
+    content: "Artificial Intelligence is evolving rapidly, influencing industries from healthcare to finance. This article discusses emerging trends, ethical concerns, and the future of AI.",
+    author: "Emma Williams",
+    authorAvatar: "https://i.pravatar.cc/150?img=3",
+    date: "March 20, 2024",
+    category: "Technology",
+    image: "https://www.workitdaily.com/media-library/artificial-intelligence-ai-technology-concept.jpg?id=34199573&width=1200&height=800&quality=85&coordinates=84%2C0%2C84%2C0"
+  },
+  {
+    id: 10,
+    title: "Mindfulness in a Fast-Paced World",
+    excerpt: "Simple mindfulness techniques to help you stay present and reduce stress in your daily life.",
+    content: "In today’s busy world, staying mindful can be challenging. This article shares practical mindfulness exercises that can improve mental clarity and emotional well-being.",
+    author: "Liam Brown",
+    authorAvatar: "https://i.pravatar.cc/150?img=4",
+    date: "March 15, 2024",
+    category: "Mental Health",
+    image: "https://images.unsplash.com/photo-1513569771920-c9e1d31714af"
   }
 ]; 

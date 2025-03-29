@@ -14,7 +14,7 @@ const About = () => {
         <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
           <h2 className="text-2xl font-serif font-bold text-gray-900 mb-4">Our Story</h2>
           <p className="text-gray-600 leading-relaxed mb-4">
-            Founded in 2024, our blog emerged from a simple idea: to create a space where knowledge meets inspiration. 
+            Founded in 2025, my blog emerged from a simple idea: to create a space where knowledge meets inspiration. 
             What started as a personal project has grown into a thriving community of readers and writers passionate 
             about sharing insights and experiences.
           </p>
