@@ -72,21 +72,29 @@ const Home = () => {
             <div className="flex flex-wrap gap-2">
               <button
                 onClick={() => setSelectedCategory(null)}
-                className={`category-tag ${
-                  !selectedCategory ? 'bg-blue-600 text-white' : 'bg-gray-100 text-gray-700'
-                }`}
+                className={`relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium rounded-lg group bg-gradient-to-br from-teal-300 to-lime-300 group-hover:from-teal-300 group-hover:to-lime-300 focus:ring-4 focus:outline-none focus:ring-lime-200`}
               >
-                All
+                <span className={`relative px-5 py-2.5 transition-all ease-in duration-75 rounded-md ${
+                  !selectedCategory 
+                    ? 'bg-transparent text-white' 
+                    : 'bg-white text-gray-900 group-hover:bg-transparent group-hover:text-gray-900'
+                }`}>
+                  All
+                </span>
               </button>
               {categories.map((category) => (
                 <button
                   key={category}
                   onClick={() => setSelectedCategory(category)}
-                  className={`category-tag ${
-                    selectedCategory === category ? 'bg-blue-600 text-white' : 'bg-gray-100 text-gray-700'
-                  }`}
+                  className={`relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium rounded-lg group bg-gradient-to-br from-teal-300 to-lime-300 group-hover:from-teal-300 group-hover:to-lime-300 focus:ring-4 focus:outline-none focus:ring-lime-200`}
                 >
-                  {category}
+                  <span className={`relative px-5 py-2.5 transition-all ease-in duration-75 rounded-md ${
+                    selectedCategory === category 
+                      ? 'bg-transparent text-white' 
+                      : 'bg-white text-gray-900 group-hover:bg-transparent group-hover:text-gray-900'
+                  }`}>
+                    {category}
+                  </span>
                 </button>
               ))}
             </div>
