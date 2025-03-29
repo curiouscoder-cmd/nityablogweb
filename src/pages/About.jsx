@@ -19,8 +19,8 @@ const About = () => {
             about sharing insights and experiences.
           </p>
           <p className="text-gray-600 leading-relaxed">
-            Today, we're proud to host a diverse collection of articles that span technology, lifestyle, culture, 
-            and more. Our commitment to quality content and authentic storytelling has helped us build a loyal 
+            Today, I am proud to host a diverse collection of articles that span technology, lifestyle, culture, 
+            and more. My commitment to quality content and authentic storytelling has helped me build a loyal 
             readership that continues to grow with each passing day.
           </p>
         </section>
@@ -82,32 +82,18 @@ const About = () => {
 
         {/* Team Section */}
         <section className="bg-white rounded-lg shadow-sm p-6">
-          <h2 className="text-2xl font-serif font-bold text-gray-900 mb-6">Our Team</h2>
+          <h2 className="text-2xl font-serif font-bold text-gray-900 mb-6">Created by</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="flex items-center space-x-4">
               <div className="flex-shrink-0">
                 <img
                   className="w-16 h-16 rounded-full author-avatar"
-                  src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
-                  alt="Team member"
+                  src="https://raw.githubusercontent.com/curiouscoder-cmd/curiouscoder-cmd/refs/heads/main/images/nit.jpeg"
                 />
               </div>
               <div>
-                <h3 className="text-lg font-medium text-gray-900">John Doe</h3>
-                <p className="text-gray-600">Founder & Editor-in-Chief</p>
-              </div>
-            </div>
-            <div className="flex items-center space-x-4">
-              <div className="flex-shrink-0">
-                <img
-                  className="w-16 h-16 rounded-full author-avatar"
-                  src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
-                  alt="Team member"
-                />
-              </div>
-              <div>
-                <h3 className="text-lg font-medium text-gray-900">Jane Smith</h3>
-                <p className="text-gray-600">Content Director</p>
+                <h3 className="text-lg font-medium text-gray-900">Nitya Jain</h3>
+                <p className="text-gray-600">Founder & Developer</p>
               </div>
             </div>
           </div>
