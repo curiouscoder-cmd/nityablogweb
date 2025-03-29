@@ -40,8 +40,8 @@ const Carousel = ({ posts }) => {
         style={{ transform: `translateX(-${currentIndex * 100}%)` }}
       >
         {posts.map((post, index) => (
-          <div 
-            key={post.id} 
+          <div
+            key={post.id}
             className="min-w-full h-full relative"
           >
             <div 
@@ -61,7 +61,7 @@ const Carousel = ({ posts }) => {
                 <p className="text-xl mb-8 line-clamp-2 max-w-3xl mx-auto">
                   {post.excerpt}
                 </p>
-                <Link 
+                <Link
                   to={`/blog/${post.id}`}
                   className="inline-flex items-center px-8 py-4 bg-white text-gray-900 rounded-full font-medium hover:bg-gray-100 transition-colors duration-300 text-lg"
                 >
@@ -145,4 +145,4 @@ const Carousel = ({ posts }) => {
   );
 };
 
-export default Carousel; 
+export default Carousel;

@@ -57,7 +57,7 @@ export const mockBlogs = [
   {
     id: 6,
     title: "Breaking Into Tech: A Beginner's Guide",
-    excerpt: "Starting a career in tech? Here’s a roadmap to help you navigate your journey.",
+    excerpt: "Starting a career in tech? Here's a roadmap to help you navigate your journey.",
     content: "The tech industry offers endless opportunities, but breaking in can be overwhelming. This guide covers essential skills, recommended resources, and tips to land your first tech job.",
     author: "Daniel Johnson",
     authorAvatar: "https://i.pravatar.cc/150?img=2",
@@ -102,7 +102,7 @@ export const mockBlogs = [
     id: 10,
     title: "Mindfulness in a Fast-Paced World",
     excerpt: "Simple mindfulness techniques to help you stay present and reduce stress in your daily life.",
-    content: "In today’s busy world, staying mindful can be challenging. This article shares practical mindfulness exercises that can improve mental clarity and emotional well-being.",
+    content: "In today's busy world, staying mindful can be challenging. This article shares practical mindfulness exercises that can improve mental clarity and emotional well-being.",
     author: "Liam Brown",
     authorAvatar: "https://i.pravatar.cc/150?img=4",
     date: "March 15, 2024",
