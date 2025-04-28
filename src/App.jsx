@@ -11,7 +11,7 @@ import Login from "./pages/Login";
 const App = () => {
   return (
     <Router>
-      <div className="min-h-screen bg-gray-50 dark:bg-gray-900 flex flex-col">
+      <div className="min-h-screen bg-gray-50 flex flex-col">
         <Navbar />
         <main className="pt-16 flex-grow">
           <Routes>
