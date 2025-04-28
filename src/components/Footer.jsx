@@ -9,14 +9,14 @@ const Footer = () => {
   const handleSubscribe = (e) => {
     e.preventDefault();
     setError("");
-    // Simple email validation
+    
     if (!email || !/^[\w-.]+@([\w-]+\.)+[\w-]{2,4}$/.test(email)) {
       setError("Please enter a valid email address.");
       return;
     }
     setSubscribed(true);
     setEmail("");
-    // Here you could also send the email to your backend or a service like Mailchimp
+    
   };
 
   return (

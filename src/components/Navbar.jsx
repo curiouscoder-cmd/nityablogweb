@@ -101,7 +101,7 @@ const Navbar = ({ setBlurContent }) => {
             <Link to="/login" className="text-gray-600 hover:text-blue-700 font-semibold transition-colors">Login</Link>
           </div>
 
-          <div className="navbar-actions">
+          <div className="navbar-actions flex items-center gap-2">
             <button
               className="relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-teal-300 to-lime-300 dark:text-white focus:ring-4 focus:outline-none focus:ring-lime-200 dark:focus:ring-lime-800 group-hover:bg-transparent group-hover:border-2 group-hover:border-teal-300"
               onClick={handleOpenModal}
