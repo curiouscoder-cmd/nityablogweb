@@ -59,7 +59,7 @@ const Footer = () => {
               />
               <button
                 type="submit"
-                className="w-full px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition"
+                className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-6 rounded-lg shadow-lg transition-transform transform hover:scale-105"
               >
                 Subscribe
               </button>
@@ -77,6 +77,15 @@ const Footer = () => {
             <a href="/privacy" className="text-gray-400 hover:text-blue-500 transition">Privacy Policy</a>
             <a href="/terms" className="text-gray-400 hover:text-blue-500 transition">Terms of Service</a>
           </div>
+        </div>
+        <div className="flex space-x-4 mt-4">
+          <a href="#" className="text-gray-400 hover:text-blue-500 transition">
+            <svg className="w-6 h-6"  /> {/* Twitter */}
+          </a>
+          <a href="#" className="text-gray-400 hover:text-blue-500 transition">
+            <svg className="w-6 h-6"  /> {/* LinkedIn */}
+          </a>
+          {/* ... */}
         </div>
       </div>
     </footer>
