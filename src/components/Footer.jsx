@@ -37,10 +37,10 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-serif font-bold text-blue-700 mb-4">Categories</h3>
             <ul className="space-y-2">
-              <li><a href="/categories?category=Technology" className="hover:text-blue-500 transition">Technology</a></li>
-              <li><a href="/categories?category=Lifestyle" className="hover:text-blue-500 transition">Lifestyle</a></li>
-              <li><a href="/categories?category=Travel" className="hover:text-blue-500 transition">Travel</a></li>
-              <li><a href="/categories?category=Food" className="hover:text-blue-500 transition">Food</a></li>
+              <li>Technology</li>
+              <li>Lifestyle</li>
+              <li>Travel</li>
+              <li>Food</li>
             </ul>
           </div>
           {/* Newsletter */}
