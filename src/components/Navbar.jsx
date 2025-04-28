@@ -98,6 +98,7 @@ const Navbar = ({ setBlurContent }) => {
             <Link to="/categories" className="text-gray-600 hover:text-gray-900">Categories</Link>
             <Link to="/about" className="text-gray-600 hover:text-gray-900">About</Link>
             <Link to="/contact" className="text-gray-600 hover:text-gray-900">Contact</Link>
+            <Link to="/login" className="text-gray-600 hover:text-blue-700 font-semibold transition-colors">Login</Link>
           </div>
 
           <div className="navbar-actions">
@@ -171,6 +172,7 @@ const Navbar = ({ setBlurContent }) => {
           <Link to="/categories" className="block px-3 py-2 text-gray-600 hover:text-gray-900">Categories</Link>
           <Link to="/about" className="block px-3 py-2 text-gray-600 hover:text-gray-900">About</Link>
           <Link to="/contact" className="block px-3 py-2 text-gray-600 hover:text-gray-900">Contact</Link>
+          <Link to="/login" className="block px-3 py-2 text-gray-600 hover:text-blue-700 font-semibold transition-colors">Login</Link>
         </div>
       </div>
     </nav>
