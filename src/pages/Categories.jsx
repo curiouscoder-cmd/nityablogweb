@@ -88,7 +88,7 @@ const Categories = () => {
         </div>
 
         {/* Blog List */}
-        <div className="grid grid-cols-1 gap-4 max-w-2xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
           {filteredBlogs.map((blog) => (
             <BlogCard key={blog.id} blog={blog} />
           ))}

@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const BlogCard = ({ blog }) => {
   return (
-    <article className="blog-card bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md">
+    <article className="blog-card bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-transform duration-200 hover:scale-105">
       <div className="flex flex-col md:flex-row">
         <div className="blog-image-container relative h-48 md:h-40 md:w-48 flex-shrink-0">
           <img 
